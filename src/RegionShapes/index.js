@@ -27,7 +27,7 @@ const RegionComponents = {
         width={Math.max(region.w * iw, 0)}
         height={Math.max(region.h * ih, 0)}
         stroke={colorAlpha(region.color, 0.75)}
-        fill={colorAlpha(region.color, 0.25)}
+        fill="transparent"
       />
     </g>
   )),
